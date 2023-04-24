@@ -47,7 +47,8 @@ export const CardContainer = styled.div`
 
 export const MeasurementsContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 `
 
 export const MeasurementCard = styled.div`
@@ -55,9 +56,10 @@ export const MeasurementCard = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #0a0e21;
-  width: 46.5%;
+  width: 180px;
   border-radius: 8px;
   padding: 30px;
+  margin: 15px;
 `
 
 export const Measurement = styled.p`
